@@ -1314,11 +1314,12 @@ form.example input[type=text] {
     .fin{
         display: flex;
         flex-direction: column;
+        padding: 10px 0px 10px 0px;
     }
     .footer p{
         padding:  5px 0px 5px 0px;
         color: white;
-        font-size: 10px;
+        font-size: 11px;
         text-align: center;
         
     }
