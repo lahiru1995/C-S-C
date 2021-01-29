@@ -103,7 +103,7 @@ nav{
     color: #2ee3f6;
 }
 .logo{
-    flex: 0.3;
+    flex: 0.1;
 }
 .nav-links{
     display: flex;
@@ -113,7 +113,7 @@ nav{
     justify-content: space-around;
     width: 50%;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 500;
     font-size: 14px;
 }
@@ -1020,11 +1020,12 @@ img {vertical-align: middle;}
 }
 @media screen and (max-width:500px){
     .ajan1{
-        margin: 10px 3px 10px 2px;
+        margin: 10px 3px 10px 3px;
     }
     .ajan1 a{
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 500;
+        height: 20px;
         
     }
     #customers td{
@@ -1214,6 +1215,78 @@ img {vertical-align: middle;}
         display: flex;
         flex-direction: column;
     }
+}
+/*----------------------tracker-------------------------*/
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid  #b8b7b7;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .example{
+      padding-top: 50px;
+  }
+  #customers img{
+      height: 80px;
+  }
+  @media screen and (max-width:500px){
+    .example{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #customers td{
+        font-size: 10px;
+    }
+    #customers th{
+        font-size: 10px;
+    }
+    #customers img{
+        height: 30px;
+    }
+    #customers {
+        border-collapse: collapse;
+        width: auto;
+        margin: auto;
+        
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 3px;
+      }
+      
+      #customers th {
+          font-weight: 500;
+       
+        text-align: center;
+        background-color: #189CE7;
+        color: white;
+      }
 }
 /*----------------------footer-------------------------*/
 .footer{
