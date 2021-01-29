@@ -297,6 +297,9 @@ h1{
 }*/
 
 @media screen and (max-width:1024px){
+    .logo{
+        flex: 1;
+    }
     body{
         overflow-x: hidden;
     }
